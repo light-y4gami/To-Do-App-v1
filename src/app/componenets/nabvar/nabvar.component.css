@@ -1,0 +1,59 @@
+.bi-person-lines-fill {
+  cursor: pointer;
+}
+
+.bi-person-lines-fill {
+  font-size: 35px;
+  color: rgba(24, 135, 84);
+}
+
+.listUL {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  text-decoration: none;
+}
+
+ul > li {
+  list-style: none;
+}
+
+li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: rgba(24, 135, 84);
+}
+
+h2 > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h2 a:hover {
+  color: rgba(24, 135, 84);
+}
+
+.eliminadas a:hover {
+  color: #ff0000;
+}
+
+.pendientes a:hover {
+  color: yellow;
+}
+
+.bi-app-indicator {
+  color: rgba(24, 135, 84);
+  margin-right: 4px;
+}
+
+.pendientes i {
+  color: yellow;
+}
+
+.eliminadas i {
+  color: #ff0000;
+}
+

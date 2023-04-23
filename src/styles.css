@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #A290A4;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%233b3d3f' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%238d8c8d' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%235f6266' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23929292' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23cbcbcc' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2b2b2' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23918f9a' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%239fa0a0' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23b4adba' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%236e6f6f' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23d2c7d3' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23292c2f' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background: rgb(172, 162, 168);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #212529;
+}
+
